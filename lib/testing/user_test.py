@@ -7,7 +7,7 @@ class TestUser:
 
     def test_is_class(self):
         '''is a class.'''
-        assert(object in User.__bases__)
+        assert(object in User._bases_)
 
     def test_initializes_with_names(self):
         '''initializes with first and last name.'''
